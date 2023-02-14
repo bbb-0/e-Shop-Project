@@ -1,0 +1,20 @@
+.navbar {
+	background-color: #222;
+	color: azure;
+	&__logo {
+		cursor: pointer;
+	}
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__link {
+			color: azure;
+			text-decoration: none;
+			padding: 0.5rem;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}

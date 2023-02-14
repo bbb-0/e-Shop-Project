@@ -6,8 +6,7 @@ import Navbar from '../../components/Navbar/Navbar';
 const Home = () => {
 	return (
 		<>
-			<NavBar />
-			<UncontrolledExample />
+			<Carousel />
 		</>
 	);
 };

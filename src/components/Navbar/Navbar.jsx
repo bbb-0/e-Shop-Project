@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import styles from './Navbar.module.scss';
 
 const Navbar = () => {
 	return (
@@ -15,7 +16,6 @@ const Navbar = () => {
 			</NavLink>
 			<ul className={styles.navbar__links}>
 				<li>
-					{/* Add a link to the home page */}
 					<NavLink to="/products" className={styles.navbar__link}>
 						Products
 					</NavLink>
